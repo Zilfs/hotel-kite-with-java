@@ -7,8 +7,8 @@ Aplikasi Ini dapat melakukan ligin multi user, sebagai manager atau staff. Jika 
 Berikut adalah struktur data base yang digunakan:
 <br>
 db: hotel-pp
-       <br> |____ tabel: users
-      <br>  |            |__________ column: id_users(INT[11], PK, AI), username(VARCHAR[50]), password(VARCHAR[50]), levels(VARCHAR[50])
-      <br>  |
-      <br>  |____ tabel: rooms
-      <br>               |_________ column: id(INT[11], PK, AI), no_kamar(INT[11]), kelas(VARCHAR[50]), status(VARCHAR[50]), visitor(VARCHAR[50], NULL)
+       <br>&emsp&emsp |____ tabel: users
+      <br>&emsp&emsp  |           |__________ column: id_users(INT[11], PK, AI), username(VARCHAR[50]), password(VARCHAR[50]), levels(VARCHAR[50])
+      <br> &emsp&emsp |
+      <br> &emsp&emsp |____ tabel: rooms
+      <br> &emsp&emsp              |_________ column: id(INT[11], PK, AI), no_kamar(INT[11]), kelas(VARCHAR[50]), status(VARCHAR[50]), visitor(VARCHAR[50], NULL)
