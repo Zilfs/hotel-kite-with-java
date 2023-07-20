@@ -66,7 +66,7 @@ public class formBooking extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel1.setText("FORM DATA KAMAR");
+        jLabel1.setText("FORM RESERVASI");
 
         jLabel2.setText("No Kamar");
 
